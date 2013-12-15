@@ -1,0 +1,31 @@
+body {
+  background-color: #CCCCCC;
+  font-family: "Open Sans";
+}
+
+#board {
+  margin: 40px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.postit {
+  background-color: #FFFFA5;
+  width: 172px;
+  height: 172px;
+  padding: 8px;
+  margin: 8px;
+  float: left;
+  overflow: hidden;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
