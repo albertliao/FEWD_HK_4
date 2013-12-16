@@ -1,10 +1,12 @@
 function init() {
   if (!localStorage.getItem('postitDatastore')) {
+    var now = new Date().toJSON();
     var postitDatastore = {
       postits: [
         {
           id: 1,
           title: 'This is the first postit.',
+          created: now,
           links: {
             upvotes: []
           }
@@ -12,6 +14,7 @@ function init() {
         {
           id: 2,
           title: 'This is the second postit.',
+          created: now,
           links: {
             upvotes: []
           }
@@ -19,6 +22,7 @@ function init() {
         {
           id: 3,
           title: 'This is the third postit.',
+          created: now,
           links: {
             upvotes: []
           }
@@ -45,9 +49,11 @@ function loadPostits() {
 function addPostit() {
   var title = $('#postit-msg').val();
   var nextId = $('.postit').data('id') + 1;
+  var now = new Date().toJSON();
   var postit = {
     id: nextId,
     title: title,
+    created: now,
     links: {
       upvotes: []
     }
@@ -70,9 +76,11 @@ function vote() {
 function saveVote(postitId) {
   var postitDatastore = JSON.parse(localStorage.getItem('postitDatastore'));
   var nextVoteId = getNextVoteId();
+  var now = new Date().toJSON();
   var upvote = {
     id: nextVoteId,
-    postitId: postitId
+    postitId: postitId,
+    created: now,
   }
 
   // Save the upvote to the upvotes model
