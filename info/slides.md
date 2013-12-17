@@ -6,9 +6,9 @@
 
 
 ## The perks of being a web dev
-<aside class="notes">Mart 5 Min: Answer the high-level question what's so good about being a developer</aside> 
-Personal development, one line at a time
-Community, for support and inspiration
+<aside class="notes">Mart 5 Min: Answer the high-level question what's so good about being a developer</aside>
+* Personal development, one line at a time
+* Community, for support and inspiration
 Dream up a project, build it yourself
 
 
@@ -24,7 +24,7 @@ Learn from and collaborate with the open source community.
 
 
 
-## Web Development: Resources to Get Started Now 
+## Web Development: Resources to Get Started Now
 <aside class="notes">Mart 5 Min: </aside>
 Mozilla Developer Network: Reference
 Smashing Magazine: Trends
@@ -98,6 +98,8 @@ UNIT 1: THE BASICS
 * Page Layout
 * HTML/CSS Lab
 
+
+
 ## FEWD Curriculum
 <aside class="notes">Kit 3 Min</aside>
 
@@ -109,6 +111,8 @@ UNIT 1: THE BASICS (cont'd)
 * Intro To jQuery
 * Arrays and Traversing The DOM
 
+
+
 ## FEWD Curriculum
 <aside class="notes">Kit 3 Min</aside>
 
@@ -119,6 +123,8 @@ UNIT 2: BUILDING IN CONCERT
 * Responsive Web Design
 * Web Forms
 * Special Topic
+
+
 
 ## GA's FEWD Course
 <aside class="notes">Kit 3 Min</aside>
@@ -133,6 +139,8 @@ UNIT 2: BUILDING IN CONCERT
 * Private instruction
 
 <a href="http://meaty-christmas-calendar.herokuapp.com/">Merry Christmas from GA!</a>
+
+
 
 ## About the course
 <aside class="notes">Kalina 2 Min</aside>
