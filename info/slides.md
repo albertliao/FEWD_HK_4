@@ -60,7 +60,35 @@
 ## FEWD Curriculum
 <aside class="notes">Kit 3 Min</aside>
 
+UNIT 1: THE BASICS
 
+* HTML Basics
+* CSS Basics
+* Advanced CSS
+* Page Layout
+* HTML/CSS Lab
+
+## FEWD Curriculum
+<aside class="notes">Kit 3 Min</aside>
+
+UNIT 1: THE BASICS (cont'd)
+
+* Introduction To Programming
+* JavaScript Basics (Variables, Conditionals)
+* JavaScript Functions
+* Intro To jQuery
+* Arrays and Traversing The DOM
+
+## FEWD Curriculum
+<aside class="notes">Kit 3 Min</aside>
+
+UNIT 2: BUILDING IN CONCERT
+
+* Lab Session
+* Review and Refactor
+* Responsive Web Design
+* Web Forms
+* Special Topic
 
 ## GA's FEWD Course
 <aside class="notes">Kit 3 Min</aside>
@@ -74,7 +102,7 @@
 * Office Hours
 * Private instruction
 
-
+<a href="http://meaty-christmas-calendar.herokuapp.com/">Merry Christmas from GA!</a>
 
 ## About the course
 <aside class="notes">Kalina 2 Min</aside>
