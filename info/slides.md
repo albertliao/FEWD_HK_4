@@ -3,16 +3,23 @@
 # Web Development
 ## Let's Break It Down
 
+
+
 ## The perks of being a web dev
 
 <aside class="notes">Mart 5 Min: Answer the high-level question what's so good about being a developer</aside> 
+
+
 
 Personal development, one line at a time
 Community, for support and inspiration
 Dream up a project, build it yourself
 
 ## POWERED BY WEB DEVELOPMENT
+
 <aside class="notes">Mart 2 Min: </aside>
+
+
 
 Liberty to work, to work at liberty
 Global employability
@@ -25,6 +32,8 @@ Learn from and collaborate with the open source community.
 
 <aside class="notes">Mart 5 Min: </aside>
 
+
+
 Dash and CodeAcademy: First Steps
 Mozilla Developer Network: Reference
 Smashing Magazine: Trends
@@ -35,6 +44,7 @@ General Assembly: Web Development Immersive
 
 
 #### About General Assembly
+
 <aside class="notes">Kalina 2 Min: What is General Assembly</aside>
 
 ![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
