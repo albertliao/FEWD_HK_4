@@ -1,27 +1,27 @@
-body {
-  background-color: #CCCCCC;
-  font-family: "Open Sans";
+body { /* 5. General Styles, Cascades */
+  background-color: #CCCCCC; /* 6. Colours */
+  font-family: "Open Sans"; /* 7. Web Fonts */
 }
 
-#board {
-  margin: 40px;
+#board { /* 8. Style the board */
+  margin: 40px; /* 9. Box model */
   padding: 20px;
   background-color: white;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #888888; /* 10. Death to PS */
 }
 
-.postit {
+.postit { /* 11. Style the postit */
   background-color: #FFFFA5;
   width: 172px;
   height: 172px;
   padding: 8px;
   margin: 8px;
-  float: left;
+  float: left; /* 12. Go with the flow, floating */
   overflow: hidden;
 }
 
 /* Clear fix hack */
-.clearfix:after {
+.clearfix:after { /* 13. Clearfix hack */
   content: ".";
   display: block;
   clear: both;

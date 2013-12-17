@@ -1,20 +1,19 @@
 <!doctype html>
-<html>
-<head>
-  <title>Post it!</title>
+<html> <!-- 1. Tags -->
+<head> <!-- 2. Head/Body -->
+  <title>Post it!</title> <!-- 3. About the page -->
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> <!-- 7. Web Fonts -->
 </head>
 <body>
-  <section id="new-postit">
+  <section id="new-postit"> <!-- 14. Add new post-it note -->
     <input id="postit-msg" type="text" placeholder="Enter your message..." size="100">
-    <button id="postit-add">Post it!</button>
+    <button id="postit-add">Post it!</button> <!-- 15. Control Button -->
   </section>
-  <section id="board" class="clearfix">
-    <!-- Here are the postits -->
+  <section id="board" class="clearfix">  <!-- 4. Mark-up for a post-it note -->
   </section>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script type="text/javascript" src="script.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <!-- 17. Add third party JavaScript -->
+  <script type="text/javascript" src="script.js"></script> <!-- 16. Add out own JavaScript -->
   <script type="text/javascript">
     init();
   </script>
