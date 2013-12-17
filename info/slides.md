@@ -3,6 +3,35 @@
 # Web Development
 ## Let's Break It Down
 
+## The perks of being a web dev
+
+<aside class="notes">Mart 5 Min: Answer the high-level question what's so good about being a developer</aside> 
+
+Personal development, one line at a time
+Community, for support and inspiration
+Dream up a project, build it yourself
+
+## POWERED BY WEB DEVELOPMENT
+<aside class="notes">Mart 2 Min: </aside>
+
+Liberty to work, to work at liberty
+Global employability
+Many multinationals, NGOs and Governments have their own web departments
+Transforming from a a thinker a to creator
+Lead the charge for any initative with a web strategy.
+Learn from and collaborate with the open source community.
+
+## Web Development: Resources to Get Started Now 
+
+<aside class="notes">Mart 5 Min: </aside>
+
+Dash and CodeAcademy: First Steps
+Mozilla Developer Network: Reference
+Smashing Magazine: Trends
+GitHub: Social Coding
+General Assembly: FEWD Course
+General Assembly: BEWD Course
+General Assembly: Web Development Immersive
 
 
 #### About General Assembly
