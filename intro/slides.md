@@ -265,7 +265,7 @@ STEP22 : TRANSITION GRACEFULLY
 * Tuition is HK$ 25,000
 * No pre-requisites
 * Maximum class size of 15 people
-* Registration ends January 20th
+* Registration ends January 17th
 
 
 
