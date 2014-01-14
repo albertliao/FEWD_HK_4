@@ -281,12 +281,5 @@ STEP22 : TRANSITION GRACEFULLY
 
 
 
-## Alumni: FEWD Ninja!
-<aside class="notes">Denis 10 Min</aside>
-
-![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
-
-
-
 #### Q & A
 <aside class="notes">All - 20 Min</aside>
