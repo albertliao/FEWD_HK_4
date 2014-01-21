@@ -213,7 +213,8 @@ Project Management Tools
 ### Installation
 
 * Linux: [Git](https://help.github.com/articles/set-up-git)
-* Mac: [Homebrew](http://brew.sh/), [XCode](https://developer.apple.com/xcode/)
+* Mac: [git-osx-installer](https://code.google.com/p/git-osx-installer/)
+* Mac(Alternative):[Homebrew](http://brew.sh/), [XCode](https://developer.apple.com/xcode/)
 * Windows: [GitHub on Windows](http://windows.github.com/)
 * Verify the git installation in Terminal/PowerShell
   * `git --version`
