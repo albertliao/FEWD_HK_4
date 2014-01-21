@@ -41,12 +41,13 @@ Kit Yuen
 
 Mart van de Ven
 
-* Analytical Engineer, DemystData
-* MSc Information Design
-* G.U.I.D.E.
+* BA Political Science, MSc Knowledge Management, MPhil Linguistics
+* Founder, Open Data Hong Kong (2013 - current)
+* Instructor, General Assembly (2013 - current)
+* Developer, DemandAnalytics (2012) / DemystData (2013)
 * Coding as Prism
+* G.U.I.D.E.
 * Open Source & Open Data
-
 
 
 ## Course Information
