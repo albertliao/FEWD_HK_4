@@ -73,7 +73,7 @@ git remote add upstream https://github.com/ga-students/FEWD_HK_4.git
 
 1. Invoke **Git: Custom Command** and enter the following line
 ```
-git merge upstream
+git merge upstream/gh-pages
 ```
 1. Invoke the **Git: Push**
 
