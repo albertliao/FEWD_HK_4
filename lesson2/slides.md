@@ -61,7 +61,7 @@ Keep your forked repository up to date.
 
 1. Add ga-students/FEWD_HK_4 as your `upstream` repo
 ```
-git remote add upstream https://github.com/ga-students/FEWD_HK_4.git
+remote add upstream https://github.com/ga-students/FEWD_HK_4.git
 ```
 
 
@@ -71,11 +71,15 @@ git remote add upstream https://github.com/ga-students/FEWD_HK_4.git
 
 **Merge** latest changes from [ga-students/FEWD_HK_4](https://github.com/ga-students/FEWD_HK_4) to your personal, forked repository.
 
-1. Invoke **Git: Custom Command** and enter the following line
+1. Invoke **Git: Custom Command** and enter the following line to check if there is any update from upstream
 ```
-git merge upstream/gh-pages
+fetch upstream
 ```
-1. Invoke the **Git: Push**
+1. Invoke **Git: Custom Command** and enter the following line to get the latest code from upstream to your local machine
+```
+merge upstream/gh-pages
+```
+1. Invoke the **Git: Push** to push the update back to your forked repo
 
 
 
