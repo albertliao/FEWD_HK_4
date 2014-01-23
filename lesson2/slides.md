@@ -441,6 +441,6 @@ As with RGBa, HSLa is exactly like HSL for the first 3 values, but takes a 4th a
 ##Lab Time
 <aside class="notes">Both ~ 30 min</aside>
 
-![GeneralAssemb.ly](../assets/images/icons/Exercise_icon_md.png)
+![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
 
 * Wendy G. Bites - Resume.
