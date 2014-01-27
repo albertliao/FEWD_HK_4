@@ -1,0 +1,39 @@
+codepen.io: http://codepen.io/anon/pen/pgtIc
+
+
+
+html
+==============================================
+<div id="container" class="clearfix">
+  <div id="child-1" class="child">red</div>
+  <div id="child-2" class="child">green</div>
+  <div id="child-3" class="child">blue</div>
+</div>
+<p>abc</p>
+
+
+
+css
+==============================================
+body { margin: 0px; }
+
+#container { background-color: yellow; }
+
+.child {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+#child-1 { background-color: red; }
+#child-2 { background-color: green; }
+#child-3 { background-color: blue; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}

@@ -1,0 +1,43 @@
+INSTRUCTION:
+  - Just open a new codepen and paste the following code snippets on it.
+
+
+
+html
+========================
+<h1>hello world</h1>
+<h1 id="hello-id">hello world with id</h1>
+<h1 class="hello-class">hello world with class</h1>
+<h1 class="hello-class">hello world with class</h1>
+
+<hr>
+
+<div id="users">
+  <div class="user">
+    <p class="name">Kit</p>
+    <p class="age">23</p>
+  </div>
+  <div class="user">
+    <p class="name">Mart</p>
+    <p class="age">20</p>
+  </div>
+  <div class="user">
+    <p class="name">Einstein</p>
+    <p class="age">30</p>
+  </div>
+</div>
+
+
+
+css
+========================
+h1 { color: red; }
+#hello-id { color: blue }
+.hello-class { color: green; }
+
+.user p { font-weight: bold; }
+.user .age { font-style: italic; }
+
+.user { background-color: yellow; }
+
+.user:nth-child(2) { background-color: pink; }

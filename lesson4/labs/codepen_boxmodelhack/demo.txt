@@ -1,0 +1,29 @@
+codepen.io: http://codepen.io/anon/pen/zJBCG
+
+
+
+html
+==============================================
+<div id="box">Box model hack</div>
+
+
+
+css
+==============================================
+body { margin: 0px; }
+
+#box {
+  width: 300px;
+  margin: 30px;
+  border: solid 30px black;
+  padding: 30px;
+  background-color: green;
+}
+
+/*
+* {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+*/
