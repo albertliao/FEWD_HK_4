@@ -1,0 +1,41 @@
+codepen.io: http://codepen.io/anon/pen/LoDcm
+
+
+
+html
+==============================================
+<header>this is the header</header>
+<div id="wrapper" class="clearfix">
+  <aside>this is the side bar</aside>
+  <main>this is the main</main>
+</div>
+<footer>this is the footer</footer>
+
+
+
+css
+==============================================
+header { background-color: red; }
+
+aside {
+  background-color: green;
+  float: left;
+  width: 30%;
+}
+
+main {
+  background-color: blue;
+  float: left;
+  width: 70%;
+}
+
+footer { background-color: yellow; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}

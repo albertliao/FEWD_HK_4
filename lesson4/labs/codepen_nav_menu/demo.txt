@@ -1,0 +1,37 @@
+codepen.io: http://codepen.io/anon/pen/xKrCh
+
+
+
+html
+==============================================
+<nav>
+  <ul>
+    <li><a href="#">menu item</a></li>
+    <li><a href="#">menu item</a></li>
+    <li><a href="#">menu item</a></li>
+    <li><a href="#">menu item</a></li>
+  </ul>
+</nav>
+
+
+
+css
+==============================================
+ul { padding: 0px; }
+
+li { 
+  list-style: none;
+  float: left; 
+  padding: 4px; 8px;
+}
+
+li a {
+  padding: 0px 10px; 
+  text-decoration: none;
+  background: black;
+  color: #EEE;
+}
+
+li a:hover { color: #AAA; }
+
+li a:active { color: #99F; }
