@@ -107,9 +107,9 @@ That should be all! Check GH to check whether it worked
 
 > git custom command
 
-> remote set-url origin git@github.com:USERNAME/FEWD_HK_3.git 
+> remote set-url origin git@github.com:USERNAME/FEWD_HK_4.git 
 
-> remote set-url upstream git@github.com:ga-students/FEWD_HK_3.git 
+> remote set-url upstream git@github.com:ga-students/FEWD_HK_4.git 
 
 
 
@@ -221,4 +221,4 @@ How to __select__ classes in CSS?
 
 ![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
 
-**[Preview](http://ga-students.github.io/FEWD_HK_3/lesson3/starter_code/fashion_blog_part1/Fashion_Blog.png)** : Fashion Blog
+**[Preview](http://ga-students.github.io/FEWD_HK_4/lesson3/labs/fashion_blog_part1/Fashion_Blog.png)** : Fashion Blog
