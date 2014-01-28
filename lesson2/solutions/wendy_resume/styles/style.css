@@ -1,0 +1,60 @@
+body {
+	background-color: #525252;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+div {
+	border: solid 5px #cccccc;
+	width: 680px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 48px;
+}
+
+h2	{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: verdana;
+}
+
+p {	
+	 word-wrap: break-word; 
+}
+a {
+	font-family: verdana;
+	font-weight: bold;
+	color: #33dd55;
+}
+
+nav ul {
+	padding: 0px;
+	margin: 0 auto;
+	width: 200px;
+	overflow: hidden;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin: 0 10px;
+}
+
+img {
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+footer ul {
+	padding: 0px;
+	margin: 0 auto;
+	width: 360px;
+	overflow: hidden;
+}
