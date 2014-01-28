@@ -39,22 +39,9 @@ Kit Yuen & Mart van de Ven
 
 1. Before each command, open up the Command Pall`ete
 > `CMD + SHIFT + P'
-1. Check if your working area is clean:
-> `git diff all`
-1. If everything is clean, great! If not, then
-> `git stash changes`
 1. Now to pull from our `ga-students` upstream repo
 > `git custom command`
-
-> `pull upstream gh-pages`
-
-
-
-### Pushing the latest course files to your own origin GH repository
-<aside class="notes">Mart ~ 5 Minutes</aside>
-
-1. We now have the latest files from `ga-students`, but if you want your own (messy) changes back
-> `git stash pop`
+  > `pull upstream gh-pages`
 1. Now we want to push to our own `origin` repository
 > `git push`
 
@@ -121,7 +108,7 @@ That should be all! Check GH to check whether it worked
 
 
 ## Box Model
-<aside class="notes">Mart ~ 30 min</aside>
+<aside class="notes">Mart ~ 30 min : @FEWD_HK_4/lesson3/labs/codepen-demo</aside>
 
 ### Every element in web design is a box
 ![GeneralAssemb.ly](../assets/images/icons/code_along.png)
@@ -139,7 +126,7 @@ That should be all! Check GH to check whether it worked
 
 ##Box Model
 
-<aside class="notes"></aside>
+<aside class="notes"> : @FEWD_HK_4/lesson3/labs/box-model</aside>
 
 **Width** = content width + padding-left + padding-right + border-left + border-right
 
@@ -206,7 +193,7 @@ How to __select__ classes in CSS?
 
 
 ## Nested Selectors
-<aside class="notes">Kit ~ 30 min</aside>
+<aside class="notes">Kit ~ 30 min : @FEWD_HK_4/lesson3/labs/nested-selectors</aside>
 
 ![GeneralAssemb.ly](../assets/images/icons/code_along.png)
 
