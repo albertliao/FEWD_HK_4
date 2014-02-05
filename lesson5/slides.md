@@ -95,3 +95,4 @@ Look at the design [here](http://ga-students.github.io/FEWD_HK_4/lesson5/labs/st
 
 ### References
 * [Front Row Video - Web Design For Non Designers](https://generalassemb.ly/online/videos/web-design-for-non-designers)
+* The [Dash](https://dash.generalassemb.ly) Adventures
