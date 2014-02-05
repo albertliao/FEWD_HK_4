@@ -190,6 +190,8 @@ How to __select__ classes in CSS?
 
 ### When should i use them? id or class?
 
+[The Difference Between ID and Class by Chris Coyier](http://css-tricks.com/the-difference-between-id-and-class/)
+
 
 
 ## Nested Selectors
