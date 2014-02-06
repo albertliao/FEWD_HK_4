@@ -1,0 +1,38 @@
+$GAME_START
+
+# Get user input
+user_choice = get_user_choice
+
+# Get robot input
+robot_choice = random(paper, scissors, stone)
+
+1 = paper
+2 = scissors
+3 = stone
+
+# Setup the datastore
+results = initialize(10)
+
+# User win
+if (user_choice == scissors AND robot_choice == paper)
+or (user_choice == stone AND robot_choice == scissors)
+or (user_choice == paper AND robot_choice == stone)
+  say "YOU WIN"
+  save(results, "user")
+
+# User lose
+if (user_choice == paper AND robot_choice == scissors)
+or (user_choice == scissors AND robot_choice == stone)
+or (user_choice == stone AND robot_choice == paper)
+  say "YOU LOSE"
+  save(results, "robot")
+
+# Repeat if draw
+if (user_choice == robot_choice)
+  save(results, "draw")
+  GOTO $GAME_START
+else
+  say "GAME OVER"
+  # Display recent results
+  foreach(results as result)
+    say result

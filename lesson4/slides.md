@@ -1,10 +1,10 @@
-![General Assembly](../assets/images/ga.png)
+ls![General Assembly](../assets/images/ga.png)
 # FEWD LESSON 4
 
 ## FEWD - Layout
 
 ### Instructors
-Kit Yuen & Mart van de Ven 
+Kit Yuen & Mart van de Ven
 
 
 
@@ -20,7 +20,7 @@ Kit Yuen & Mart van de Ven
 
 
 ## Box Model Hack
-<aside class="notes">Kit ~ 10 min</aside>
+<aside class="notes">Kit ~ 10 min  : @FEWD_HK_4/lesson3/labs/codepen-boxmodelhack</aside>
 
 ```
 /* Box Model Hack */
@@ -50,7 +50,7 @@ Kit Yuen & Mart van de Ven
 ## Floats
 <aside class="notes">Kit ~ 20 min</aside>
 
-Float is a CSS positioning property, used to layout a web page. 
+Float is a CSS positioning property, used to layout a web page.
 ![](http://css-tricks.com/wp-content/csstricks-uploads/web-layout.png)
 
 
@@ -60,6 +60,19 @@ Float is a CSS positioning property, used to layout a web page.
 
 Float can also help you to create an horizontal menu.
 ![](http://line25.com/wp-content/uploads/2012/css-menu/3.jpg)
+
+
+
+
+## Code Along
+<aside class="notes">
+  Both ~ 60 mins : @FEWD_HK_4/lesson3/labs/codepen-nav_menu
+    * HTML: header, aside, footer
+    * CSS: float
+</aside>
+
+### Navigation menu
+![GeneralAssemb.ly](../assets/images/icons/code_along.png)
 
 
 
@@ -74,9 +87,9 @@ Float can also help you to create an horizontal menu.
 
 ## Code Along
 <aside class="notes">
-  Both ~ 60 mins
+  Both ~ 60 mins : @FEWD_HK_4/lesson3/labs/codepen-layout-example
     * HTML: header, aside, footer
-    * CSS: float 
+    * CSS: float
 </aside>
 
 ### Floating Sections
@@ -85,11 +98,11 @@ Float can also help you to create an horizontal menu.
 
 
 ## The clearfix hack
-<aside class="notes"></aside>
+<aside class="notes">Mart ~ 10 mins : @FEWD_HK_4/lesson3/labs/codepen-clearfix</aside>
 
 Apply the clearfix class to the parent element such that it knows the height of the floating children.
 
-```
+```css
 /* Clear fix hack */
 .clearfix:after {
   content: ".";

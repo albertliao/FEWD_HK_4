@@ -1,0 +1,20 @@
+codepen.io: http://codepen.io/anon/pen/kGimJ
+
+
+
+html
+==============================================
+<a>Not a link (without href)</a>
+<br>
+<a href="#">Google</a>
+
+
+
+css
+==============================================
+a { color: red; }
+a:link { color: orange; }
+a:visited { color: green; }
+a:focus { color: yellow; } 
+a:hover { color: blue; }
+a:active { color: pink; }
