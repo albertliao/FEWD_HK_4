@@ -23,6 +23,7 @@ The must-have tool in development!
 * a:
 * a:link
 * a:visited
+* a:focus
 * a:hover
 * a:active
 
