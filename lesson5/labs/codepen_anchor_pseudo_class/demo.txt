@@ -15,5 +15,6 @@ css
 a { color: red; }
 a:link { color: orange; }
 a:visited { color: green; }
+a:focus { color: yellow; } 
 a:hover { color: blue; }
 a:active { color: pink; }
