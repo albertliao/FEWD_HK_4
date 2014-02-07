@@ -8,6 +8,27 @@ Kit Yuen & Mart van de Ven
 
 
 
+## Get update from upstream
+<aside class="notes"></aside>
+
+### Merge upstream to your local
+
+Shift + Command + P
+
+* Git: Custom command
+* Enter: pull upstream gh-pages
+* Enter the commit message (if it pops up) and close that tab
+
+<br>
+
+### Push the update to your github fork
+
+Shift + Command + P
+
+* Git: Push
+
+
+
 ## Chrome Web Inspector
 <aside class="notes">Kit (10 Min)</aside>
 
