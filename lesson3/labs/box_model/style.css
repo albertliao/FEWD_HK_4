@@ -1,0 +1,26 @@
+body{
+	font-family: 'Duru Sans', cursive;
+	background-color: white;
+}
+li{
+	background-color: #71DE9E;
+	padding: 10px;
+	border: solid 10px #86BBD5;
+	margin:10px;
+	width: 200px;
+}
+
+h1{
+	background-color: #71DE9E;
+	padding: 10px;
+	border: solid 10px #86BBD5;
+	margin:10px;
+	width: 200px;
+}
+
+h2{	background-color: #86BBD5;
+	padding: 10px;
+	border: solid 50px #71DE9E;
+	margin:7px;
+	width: 500px;
+}

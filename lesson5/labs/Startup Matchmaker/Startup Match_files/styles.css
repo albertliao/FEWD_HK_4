@@ -1,0 +1,130 @@
+
+nav {
+        padding: 0px;
+        margin: 0 auto;
+        overflow: hidden;
+}
+
+nav li{
+        float: right;
+        padding: 20px;
+}
+
+header {
+
+}
+
+h1 {
+	font-size: 40px;
+	color: yellow;
+	margin-top: 0;
+}
+h2 {
+	font-size: 30px;
+	font-style: bold;
+	text-align: left;
+	margin-left:  10px;
+}
+
+h3 {
+	text-align: left;
+	margin-left: 10px;
+}
+
+h4 {
+	font-size: 25px;
+	text-align: center;
+}
+
+span{
+	font-size: 25px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+#special{
+	background-color: yellow;
+	border-width: 10px;
+	font-weight: bold;
+}
+
+#container{
+	background-color: black;
+	width: 900px;
+	margin: 0px auto;
+	position: relative;
+	padding-top: 10px;
+}
+
+#actionbar{
+	background-color: white;
+	width: 900px;
+	margin: 0 auto;
+}
+
+#title{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#tagline{
+	font-size: 30px;
+	background-color: DarkGray;
+	border-top: yellow;
+	border-top-style: solid;
+	border-top-width: large;
+	color: black;
+	text-align: center;
+	padding left:40px;
+	padding right:40px;
+	padding-top: 10px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+
+}
+
+#boxfloat{
+	background-color: white;
+	opacity: 0.85;
+	width: 300px;
+	height: 400px;
+	float: right;
+}
+
+#background-image{
+	background-image: url("coworking.jpg");
+	padding: 20px;
+}
+
+#yellowbar{
+	color:yellow;
+	padding: 0px;
+}
+
+
+.bar{
+	width: 240px;
+	height: 200px;
+	margin: 0 auto;
+	float: left;
+	padding: 20px;
+	border-right: solid 5px #cdd5cf;
+}
+
+div img{
+	margin: 0 auto;
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
