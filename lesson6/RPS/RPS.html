@@ -9,15 +9,19 @@
 <body>
     <script>
 
-            var userGuess = prompt("Rock/Paper/Scissors?").toLowerCase();
+            var userGuess = prompt("Rock/Paper/Scissors?");
 
             document.write("You have selected: " + userGuess + "<br>");
 
-            var computerGuess = convert(Math.floor(Math.random()*3));
+            setTimeout(function(){
 
-            document.write("The computer chooses: " + computerGuess + "<br>");
+	            var computerGuess = convert(Math.floor(Math.random()*3));
 
-            document.write(compare(userGuess,computerGuess));
+	            document.write("The computer chooses: " + computerGuess + "<br>");
+
+	            document.write(compare(userGuess.toLowerCase(),computerGuess.toLowerCase()));
+	            
+			},1000);
 
     </script>
 </body>

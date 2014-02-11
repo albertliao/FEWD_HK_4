@@ -1,10 +1,10 @@
 function convert(number) {
     if (number === 0) {
-        return "rock";
+        return "Rock";
     } else if (number === 1) {
-        return "scissors";
+        return "Scissors";
     } else {
-        return "paper";
+        return "Paper";
     }
 }
 
@@ -13,21 +13,21 @@ function compare(userGuess, computerGuess) {
         return "Boom - The result is a draw!"
     } else if (userGuess === "rock") {
         if (computerGuess === "scissors") {
-            return "you win with rock!"
+            return "You win with Rock!"
         } else {
-            return "sorry - computer wins with paper"
+            return "Sorry - computer wins with Paper"
         }
     } else if (userGuess === "scissors") {
         if (computerGuess === "paper") {
-            return "you win with scissors!"
+            return "You win with Scissors!"
         } else {
-            return "sorry - computer wins with rock"
+            return "Sorry - computer wins with Rock"
         }
     } else if (userGuess === "paper") {
         if (computerGuess === "rock") {
-            return "you win with paper"
+            return "You win with Paper"
         } else {
-            return "sorry - computer wins with scissors"
+            return "Sorry - computer wins with Scissors"
         }
     }
 }
