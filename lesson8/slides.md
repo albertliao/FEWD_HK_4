@@ -151,6 +151,66 @@ function calculateTax(income, allowances) {
 
 
 
+## Events
+<aside class="notes"></aside>
+
+### [Javascript events](http://101.lv/learn/JSweek/ch5.htm) are action taken by the user on the DOM.
+
+Example
+
+* click
+* change
+* mouseover
+* submit
+
+
+
+## Events
+<aside class="notes"></aside>
+
+We can add a listner to an event and attach a function on it.
+
+Example
+
+```document.getElementById('link').onclick = linkIsClicked;```
+
+* .onclick()
+* .onchange()
+* .onmouseover()
+* .onsubmit()
+
+
+
+## Events
+<aside class="notes"></aside>
+
+If you want to get more details about the event, add the event argument in the implementation.
+
+```
+document.getElementById('link').onclick = linkIsClicked;
+
+function linkIsClicked(event) {
+  console.log(event);
+}
+```
+
+
+
+## Events
+<aside class="notes"></aside>
+
+Sometimes we may want to stop the default behavior is an event.
+
+```
+document.getElementById('link').onclick = linkIsClicked;
+
+function linkIsClicked(event) {
+  event.preventDefault();
+}
+```
+
+
+
 # Cash Register
 <aside class="notes">Class ~ 60 Min</aside>
 
