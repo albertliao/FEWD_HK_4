@@ -40,7 +40,7 @@ alert("Hello World");
 
 
 
-## Separation of Concerns 
+## Separation of Concerns
 <aside class="notes">Mart ~ 5 Min</aside>
 
 ![GeneralAssemb.ly](../assets/images/icons/code_along.png)
@@ -54,7 +54,7 @@ alert("Hello World");
 
 What are variables?
 
-* We can tell our program to remember values for us to use later on. 
+* We can tell our program to remember values for us to use later on.
 * The action of saving a value to memory is called assignment
 * The entity we use to store the value is called a variable
 * The action of getting the value from a variable is called accessing the variable
@@ -122,7 +122,7 @@ name = "Amir";
 
 
 
-## Score Keeper 
+## Score Keeper
 <aside class="notes">Kit ~ 15 Min</aside>
 
 ![GeneralAssemb.ly](../assets/images/icons/code_along.png)
@@ -183,7 +183,7 @@ var floatNumber = parseFloat(floatString);
 
 
 
-## Conversion: Number To String 
+## Conversion: Number To String
 <aside class="notes"></aside>
 
 ```
@@ -256,7 +256,7 @@ Can perform arithmetic on number data types
 
 It's either TRUE or FALSE (like booleans)
 
-If you are greater than 18 
+If you are greater than 18
 you are an adult
 
 ```
@@ -294,7 +294,7 @@ Are two things equal?
 <aside class="notes"></aside>
 
 ```
-if (condition is true) { 
+if (condition is true) {
   // Do cool stuff
 }
 ```
@@ -308,7 +308,7 @@ if (condition is true) {
   // Do cool stuff
 } else {
   // Do other cool stuff
-} 
+}
 ```
 
 
@@ -351,8 +351,8 @@ if (name == "GA" && password == "YellowPencil") {
 <aside class="notes"></aside>
 
 ```
-if (day == "Monday" || day == "Wednesday") {
-  // FEWD3 DAY
+if (day == "Thursday" || day == "Tuesday") {
+  // FEWD4 DAY
 }
 ```
 
@@ -374,5 +374,5 @@ if (day == "Monday" || day == "Wednesday") {
 
 Add your JS file to HTML by the ```<script>``` tag inside ```<head>```
 
-Example: 
+Example:
 &lt;script src="js/main.js"&gt;&lt;/script&gt;
