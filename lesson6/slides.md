@@ -20,13 +20,6 @@ Kit Yuen & Mart van de Ven
 
 
 
-# But First! 
-<aside class="notes">Mart</aside>
-
-## The make-up class!
-
-
-
 # Introduction To Programming
 <aside class="notes">Mart ~ 10 Min</aside>
 
@@ -110,7 +103,7 @@ else if working_hours > 8
 
 ```
 target_temperature = 26
-repeat forever,
+repeat forever:
   current_temperature = get_sensor_reading
   if (target_temperature - 1) > current_temperature,
     turn_on_heater

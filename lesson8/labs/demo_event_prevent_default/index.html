@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <a id="link" href="http://www.google.com" target="_blank">Google</a>
+  <script type="text/javascript">
+    document.getElementById('link').onclick = linkIsClicked;
+
+    function linkIsClicked(e) {
+      e.preventDefault();
+    }
+  </script>
+</body>
+</html>

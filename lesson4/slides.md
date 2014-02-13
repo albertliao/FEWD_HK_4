@@ -51,7 +51,14 @@ Kit Yuen & Mart van de Ven
 <aside class="notes">Kit ~ 20 min</aside>
 
 Float is a CSS positioning property, used to layout a web page.
-![](http://css-tricks.com/wp-content/csstricks-uploads/web-layout.png)
+![](http://css-tricks.com/wp-content/csstricks-uploads/web-layout.png)## Floats
+
+
+
+## Characteristics of Floats
+<aside class="notes">Kit ~ 20 min</aside>
+
+Text flows around floated boxes, but other boxes in flow [completely ignore them](http://jsbin.com/azuwul/1/edit)
 
 
 
