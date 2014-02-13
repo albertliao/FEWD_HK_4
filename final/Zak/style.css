@@ -1,0 +1,10 @@
+.table{
+	width: 310px;
+	height: 200px;
+}
+
+.container{
+	width: 310px;
+	height: 200px;
+	display: inline;
+}
