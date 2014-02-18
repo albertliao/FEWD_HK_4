@@ -1,6 +1,6 @@
     $(document).ready(function() {
         
-        //Audio Elements
+        //Audio Elements//Just for fun.
         var audioElement1 = document.createElement('audio');
         audioElement1.setAttribute('src', 'audio/bell.ogg');
         var audioElement2 = document.createElement('audio');
@@ -16,6 +16,7 @@
         var computerScore = 0;
         var humanScore = 0;
         
+        //jQuery Click Listener!
         $("button").on("click", function(event) {
             event.preventDefault();
             var guessID = $(this).attr('id');
@@ -26,6 +27,7 @@
             userGuess(guessID);
         });
 
+        //function to run when user submits a guess.
         var userGuess = function(guess) {
                 console.log("You have selected: " + guess + "<br>");
                 setTimeout(function() {
@@ -38,6 +40,7 @@
                 }, 1000);
             };
 
+        //convert random number to a real life choice
         function convert(number) {
             if (number === 0) {
                 return "rock";
@@ -48,6 +51,7 @@
             }
         }
 
+        //compare and actions when user guesses and computer has chosen
         function compare(userGuess, computerGuess) {
             if (userGuess === computerGuess) {
                 flash("draw");
@@ -92,6 +96,7 @@
             }
         }
 
+        //function to reset the score on the page
         function resetScore() {
             humanScore = 0;
             computerScore = 0;
@@ -100,6 +105,7 @@
             $("#computerScore").text(computerScore.toString());
         }
 
+        //jQuery function to update the score on the page
         function updateScore() {
             $("#humanScore").text(humanScore.toString());
             $("#computerScore").text(computerScore.toString());
@@ -116,8 +122,10 @@
 
         function resetWinText() {
             //To Reset Styles or Winning/Losing Text before next round.
+            //currently not being used.
         }
 
+        //animation (color change) after each round.
         function flash(winner){
             if(winner == "user"){
                 $("h2").css({"background-color": "#FFFFFF"});
@@ -129,4 +137,4 @@
                 $("h2").css({"background-color": "#D054DE"});
             }
         }
-    }); //document get ready end statement
+    }); //document get ready end statement closure
