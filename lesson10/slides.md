@@ -11,17 +11,10 @@ Kit Yuen & Mart van de Ven
 ## Agenda
 <aside class="notes"></aside>
 
-* Review of Homework
 * Collection Of Data
 * Manipulating Collections
 * Carousel
-
-
-
-## Homework Review
-<aside class="notes">Mart ~ 15 min</aside>
-
-[JavaScript Code](https://github.com/szs/FEWD_HK_3/blob/gh-pages/homework/Week5/divided-times-obfuscated/js/main.js)
+* Final Project Wireframe
 
 
 
@@ -254,9 +247,9 @@ images.forEach(function(element, index){
 
 Implement the feature as follow.
 
-[Eat Scale](http://ga-students.github.io/FEWD_HK_3/lesson10/starter_code/carousel_obfuscated)
+[Eat Scale](http://ga-students.github.io/FEWD_HK_4/lesson10/labs/carousel_obfuscated)
 
 
 
-## How variables work?
-<aside class="notes">Kit ~ 20 min</aside>
+## Final Project Wireframe
+<aside class="notes">Mart ~ 15 min</aside>
