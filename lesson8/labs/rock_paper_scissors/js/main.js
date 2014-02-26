@@ -137,4 +137,4 @@
                 $("h2").css({"background-color": "#D054DE"});
             }
         }
-    }); //document get ready end statement closure
+    }); //document get ready end statement closure  
