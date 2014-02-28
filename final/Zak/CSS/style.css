@@ -1,6 +1,12 @@
 .table{
 	width: 310px;
 	height: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	border-top: 100px;
+	border-bottom: 100px;
 }
 
 .container{
@@ -15,6 +21,29 @@ body {
 	font-size: 20px;
 	margin: 3em;
 	padding: 0;
+}
+
+h3 {
+	margin: 2px;
+	text-align: center;
+}
+
+#accountbar{
+	width: 200px;
+	height: 600px;
+	margin-left: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,.25);
+	border-radius: 10px;
+	float: left;
+}
+
+#playtables{
+	width: 600px;
+	height: 600px;
+	margin-left: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,.25);
+	border-radius: 10px;
+	float: right;
 }
 
 #register {
@@ -79,4 +108,82 @@ body {
 #entry input:focus {
 	outline: none;
 	border-color: rgba(255,255,255,.75);
+}
+
+
+.twodice{
+	width:50px;
+	height: 100px;
+	border-right-width: 1px;
+	border-style: solid;
+	border-color: rgba(black);
+	margin: 0px;
+	float: left;
+}
+
+.squaretop{
+	font-size: 100px;
+	position: relative;
+	left: -3px;
+	top: -40px;
+}
+
+.single{
+	left: 70px;
+	top: -65px;
+}
+
+.squarebottom{
+	font-size: 100px;
+	position: relative;
+	left: -3px;
+	top: -230px;
+}
+
+.dot{
+	font-size: 10px;
+	position: relative;
+	top: -145px;
+	left: 15px;
+}
+
+.total{
+	width:53.9px;
+	height: 100px;
+	border-right-width: 1px;
+	border-style: solid;
+	border-color: rgba(black);
+	margin: 0px;
+	float: left;
+}
+
+.singledice{
+	width:131.06px;
+	height: 50px;
+	border-right-width: 1px;
+	border-style: solid;
+	border-color: rgba(black);
+	margin: 0px;
+	float: left;
+}
+
+.totaltext{
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
+}
+
+.payouttext{
+	font-size: 15px;
+	text-align: center;
+	margin: auto;
+}
+
+.footer{
+	width: 700px;
+	height: 20px;
+	margin: auto;
+	text-align: center;
+	/*border-style: solid;
+	border-radius: 1px;*/
 }
