@@ -272,7 +272,7 @@ if (age > 18) {
 
 Are two things equal?
 
-```
+```javascript
 10 === 10     // true
 10 === 5      // false
 "hi" === "hi" // true
