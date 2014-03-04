@@ -63,7 +63,6 @@ Comment boxing.css and uncomment the boxing-mobile.css. Use it to create the lay
 Checkout these __Fixed__ sites
 
 * [UPS.com](http://www.ups.com)
-* [Boston.com](http://www.boston.com)
 * [Google.com](http://www.google.com)
 * [Getaround.com](http://www.getaround.com)
 
