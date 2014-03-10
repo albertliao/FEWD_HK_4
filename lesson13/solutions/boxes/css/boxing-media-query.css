@@ -1,0 +1,94 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+header {
+  border: 2px solid black;
+  margin: 20px 0;
+  box-sizing: border-box;
+}
+
+footer {
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+ul li {
+  border: 1px solid black;
+  width: 40px;
+  height: 20px;
+  float: left;
+  margin-right: 20px;
+}
+
+ul li:first-child {
+  display: none;
+}
+
+#container {
+  width: 100%;
+}
+
+.red {
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+  background-color: red;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.green {
+  border: 1px solid black;
+  background-color: green;
+  margin: 1.1%;
+  width: 30%;
+  height: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.blue {
+  border: 1px solid black;
+  background-color: blue;
+  float: left;
+  width: 30%;
+  height: 40px;
+  margin: 1.2%;
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 720px) {
+  ul li {
+    display: none;
+  }
+
+  ul li:first-child {
+    display: block;
+    float: right;
+  }
+
+  .line {
+    border: 1px solid black;
+    width: 16px;
+    height: 4px;
+    margin: 0 11px;
+  }
+
+  .green {
+    width: 100%;
+    height: 40px;
+    display: block;
+  }
+
+  .blue {
+    float: none;
+    width: 100%;
+    height: 40px;
+  }
+}
