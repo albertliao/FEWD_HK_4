@@ -231,5 +231,6 @@ Defines the grouping term for the fieldset
 ## Optional: Validation
 <aside class="notes">Mart ~ 10 Min</aside>
 
+* [Simple validation](http://www.the-art-of-web.com/html/html5-form-validation/) is provided by HTML5
 *	Use simple if/else statements
 *	or a validation library like [Parsley.js](http://parsleyjs.org/doc/index.html)
