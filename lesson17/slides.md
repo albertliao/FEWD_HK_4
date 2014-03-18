@@ -246,7 +246,7 @@ JSON.parse(string);
 ## Facebook Integration : API Calls
 <aside class="notes"></aside>
 
-[Facebook SDK for JavaScript](https://developers.facebook.com/docs/javascript/gettingstarted/)
+[Facebook SDK for JavaScript](https://developers.facebook.com/docs/javascript/)
 
 [Getting Started: The Graph API](https://developers.facebook.com/docs/getting-started/graphapi/)
 
