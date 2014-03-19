@@ -100,46 +100,6 @@ A __front-end web developer__ focuses on building the client side of a site – 
 
 
 
-#### Web Technology Primer
-
-![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
-
-
-
-<aside class="notes">Give a high-level idea of how web technologies work together to provide the internet
-Kit 3 Min
-</aside>
-
-**THE INTERNET MACHINE**
-
-![How Internet Works](http://tijptjik.github.io/FEWD/assets/images/internet.png)
-
-
-
-## Tooling Up
-<aside class="notes">2 Min</aside>
-**Web Server**
-
-![Apache & NginX](http://tijptjik.github.io/FEWD/assets/images/servers.png)
-
-
-
-## Tooling Up
-<aside class="notes">2 Min</aside>
-**Version control**
-
-![Git](http://tijptjik.github.io/FEWD/assets/images/github.png)
-
-
-
-## Tooling Up
-<aside class="notes"> </aside>
-**Text Editor**
-
-![Sublime Text](http://tijptjik.github.io/FEWD/assets/images/sublime.png)
-
-
-
 #### The Front End Web Stack
 
 ![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
@@ -178,6 +138,49 @@ Kit 3 Min
 
 
 
+## FEWD STACK
+<aside class="notes"></aside>
+
+In simple words...
+
+* __HTML__ - The structure and content of a webpage
+* __CSS__ - The style of a webpage 
+* __Javasctipt__ - Make you webpage more dynamic 
+
+
+
+#### From idea to application
+
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
+
+
+
+## Tooling Up
+<aside class="notes"> </aside>
+**Text Editor**
+
+![Sublime Text](http://tijptjik.github.io/FEWD/assets/images/sublime.png)
+
+
+
+## Tooling Up
+<aside class="notes">2 Min</aside>
+**Version control + Web Server**
+
+![Git](http://tijptjik.github.io/FEWD/assets/images/github.png)
+
+
+
+## Alumni: FEWD Ninja!
+<aside class="notes">10 Min</aside>
+
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
+
+* [Buplas](http://buplas.com/)
+* [Coconut](http://studio.generalassemb.ly/HK/FEWD1/Sean/project/v3/)
+
+
+
 ## JAVASCRIPT as the PROGRAMMING LINGUA FRANCA
 <aside class="notes">Answer why of all the languages out there javascript is the best language to pick up</aside>
 
@@ -203,17 +206,6 @@ Kit 3 Min
 **TOP LANGUAGES**
 
 ![Top Languages](http://tijptjik.github.io/FEWD/assets/images/top.png)
-
-
-
-## FEWD STACK
-<aside class="notes"></aside>
-
-In simple words...
-
-* __HTML__ - The structure and content of a webpage
-* __CSS__ - The style of a webpage 
-* __Javasctipt__ - Make you webpage more dynamic 
 
 
 
@@ -280,16 +272,6 @@ In simple words...
 * OSX/Linux is preferred, Windows is also OK.
 * Chrome Browser
 * Sublime Text Editor
-
-
-
-## Alumni: FEWD Ninja!
-<aside class="notes">10 Min</aside>
-
-![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
-
-* [Coconut](http://studio.generalassemb.ly/HK/FEWD1/Sean/project/v3/)
-* [Buplas](http://buplas.com/)
 
 
 
