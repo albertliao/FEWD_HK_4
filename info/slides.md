@@ -258,7 +258,7 @@ In simple words...
 * Tuition is $25,000HKD
 * Payment plans are available
 * No pre-requisites
-* Maximum class size of 15 people
+* Expected class size of 15 students
 * Registration ends Mar 28th
 
 
