@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+	
+		<title>Transitions</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#btn").click(function(){
+					$("#image-container img:first-child").addClass("img-moved-left");
+				});
+
+				
+				$("#image-container").on("transitionEnd webkitTransitionEnd", ".img-moved-left",function(){
+				    $("#image-container").append(this);
+				    $(this).removeClass("img-moved-left");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Slide left transition</h1>
+			</header>
+			<button id="btn">Click</button>
+			<div id="image-container-wrapper">
+				<div id="image-container">
+					<img src="images/cute-cat.jpg">
+					<img src="images/cute-cats-cups.jpg">
+					<img src="http://www.petfinder.com/wp-content/uploads/2012/11/99059361-choose-cat-litter-632x475.jpg">
+					<img src="http://www.petfinder.com/wp-content/uploads/2012/11/99059361-choose-cat-litter-632x475.jpg">
+				</div>
+			</div>	
+			<footer>
+				&copy; General Assembly
+			</footer>
+		</div><!-- #container --> 
+	</body>
+</html>
